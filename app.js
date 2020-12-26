@@ -23,8 +23,8 @@ app.post("/",function(req,res){
     const apiInfo={
         endPoint:"https://us7.api.mailchimp.com/3.0",
         path:"lists",
-        list_id:"ed24a378c0",
-        api_key:"e7d03eb1007000838e2dc2e032ee14c7-us7",
+        list_id:"your list id",
+        api_key:"your API KEY",
         FullUrl:function(){
             return `${this.endPoint}/${this.path}/${this.list_id}`;
         
